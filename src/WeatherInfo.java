@@ -10,7 +10,7 @@ import javax.swing.ImageIcon;
 
 public class WeatherInfo
 {
-  private String inputName, apiKey = "a73341f5b7797adb", currentConditions, observationTime, cityName, windDir, humidity, feelsLikeF, feelsLikeC, radar;
+  private String inputName, apiKey = "insert api key here", currentConditions, observationTime, cityName, windDir, humidity, feelsLikeF, feelsLikeC, radar;
   private String[] fiveDayConditions, fiveDayName;
   private int[] fiveDayChance, highLowF, highLowC;
   private int[][] fiveDayTempF, fiveDayTempC;
