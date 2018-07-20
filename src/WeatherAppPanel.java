@@ -1,7 +1,7 @@
-// +----------------------------------+
-// | Panel class for the weather app. |
-// | By Bradley He                    |
-// +----------------------------------+
+// +---------------------------------+
+// | Panel class for the weather app |
+// | By Bradley He                   |
+// +---------------------------------+
 
 import java.awt.*;
 import java.awt.event.*;
