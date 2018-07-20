@@ -78,7 +78,7 @@ public class WeatherInfo
     is = c.getInputStream();
     isr = new InputStreamReader(is, "UTF-8");
     
-    // Thic time, we create a JsonArray in order to obtain the data from the api
+    // This time, we create a JsonArray in order to obtain the data from the api
     forecast = (JsonObject)new JsonParser().parse(isr);
     JsonArray array = forecast.getAsJsonObject("forecast").getAsJsonObject("simpleforecast").getAsJsonArray("forecastday");
     
