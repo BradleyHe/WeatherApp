@@ -120,7 +120,7 @@ public class WeatherInfo
     
     // Setting radar according to latitude and longitude
     radar = "http://api.wunderground.com/api/" + apiKey + "/animatedradar/q/" + inputName + ".gif?centerlat=" + latitude + "&centerlon=" + longitude 
-      + "&radius=30&width=320&height=300&timelabel=1&timelabel.y=15&delay=15&newmaps=1&num=10";
+      + "&radius=30&width=300&height=300&timelabel=1&timelabel.y=15&delay=15&newmaps=1&num=10";
     
     return radar;
   }
